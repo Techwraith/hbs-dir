@@ -8,10 +8,10 @@ module.exports = function (opts, cb) {
   if (!opts.target) throw new Error('opts.target is required')
   if (!opts.context) throw new Error('opts.context is required')
   var render = map(function (code, filename) {
-    var t = hb.compile(code)
+    var t = hb.compile(code.toString())
     return t(opts.context)
   })
-  fs.src([opts.origin+'/*.hbs', opts.origin+'/**/*.hbs'])
+  fs.src([opts.origin+'/**'])
     .pipe(render)
     .pipe(fs.dest(opts.target))
 }
