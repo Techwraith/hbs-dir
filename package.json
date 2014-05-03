@@ -1,0 +1,24 @@
+{
+  "name": "hbs-dir",
+  "version": "0.0.0",
+  "description": "Recursively render a directory of hbs files and copy them to a new directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Techwraith/hbs-dir.git"
+  },
+  "keywords": [
+    "handlebars",
+    "vinyl",
+    "recursive"
+  ],
+  "author": "techwraith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techwraith/hbs-dir/issues"
+  },
+  "homepage": "https://github.com/Techwraith/hbs-dir"
+}
