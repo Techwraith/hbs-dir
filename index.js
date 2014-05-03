@@ -1,6 +1,6 @@
 var hb = require('handlebars')
   , fs = require('vinyl-fs')
-  , map = require('vinyle-map')
+  , map = require('vinyl-map')
 
 module.exports = function (opts, cb) {
   if (!opts || typeof opts == 'function') throw new Error('opts is required')
