@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/Techwraith/hbs-dir",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.2",
-    "vinyl-fs": "^0.1.4",
+    "handlebars": "^4.0.5",
+    "vinyl-fs": "^2.4.4",
     "vinyl-map": "^1.0.1"
   }
 }
