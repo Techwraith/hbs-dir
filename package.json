@@ -1,6 +1,6 @@
 {
   "name": "hbs-dir",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Recursively render a directory of hbs files and copy them to a new directory",
   "main": "index.js",
   "scripts": {
